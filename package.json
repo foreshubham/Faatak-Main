@@ -1,17 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node server.js\" \"node start-ffmpeg.js\""
+    "start": "node index.js"
   },
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "firebase": "^12.6.0"
-  },
-  "devDependencies": {
-    "concurrently": "^9.2.1"
   }
 }
