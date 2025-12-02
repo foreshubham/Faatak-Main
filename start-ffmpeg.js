@@ -7,7 +7,7 @@ const fs = require("fs");
 const outDir = path.join(__dirname, "stream");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
-// YOUR CAMERA RTSP URL (Based on your screenshot)
+//  CAMERA RTSP URL 
 const rtspUrl = "rtsp://192.168.0.115:554/avstream/channel=1/stream=1.sdp";
 // If username+password:
 // const rtspUrl = "rtsp://admin:pass@192.168.0.115:554/avstream/channel=1/stream=0.sdp";
